@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenplay Access</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Protected Screenplay</h1>
+    </header>
+    <main>
+        <p>Enter the password to view the screenplay:</p>
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="checkPassword()">Submit</button>
+        <div id="screenplay-content" style="display:none;">
+            <h2>My Screenplay</h2>
+            <p>This is where the screenplay content will be displayed.</p>
+        </div>
+    </main>
+</body>
+</html>
